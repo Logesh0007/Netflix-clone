@@ -18,7 +18,7 @@ function Banner() {
     }
 
     return (
-        <header className='banner' style={movie?.backdrop_path && { backgroundSize: 'cover', backgroundImage: `url('http://image.tmdb.org/t/p/original/${movie?.backdrop_path}')`, backgroundPosition: 'center center' }}>
+        <header className='banner' style={movie?.backdrop_path && { backgroundSize: 'cover', backgroundImage: `url('https://image.tmdb.org/t/p/original/${movie?.backdrop_path}')`, backgroundPosition: 'center center' }}>
             <div className='banner-content'>
                 <h1 className='banner-title'>{movie?.title || movie?.name || movie?.original_name}</h1>
                 <div className='banner-btns'>
